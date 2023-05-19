@@ -38,19 +38,19 @@ export function Nav(props: {}) {
                         </Link>
 
                         <Sidebar.Collapse icon={UsersIcon} label="Teams">
-                            <Link href='/dashboard/create-team'>
+                            <Link href='/dashboard/team/new'>
                                 <Sidebar.Item icon={PlusIcon}>
                                     New Team
                                 </Sidebar.Item>
                             </Link>
 
-                            <Link href='/dashboard/teams/123'>
+                            <Link href='/dashboard/team/123'>
                                 <Sidebar.Item href="#">
                                     Marketing
                                 </Sidebar.Item>
                             </Link>
 
-                            <Link href='/dashboard/teams/456'>
+                            <Link href='/dashboard/team/456'>
                                 <Sidebar.Item href="#">
                                     Sales
                                 </Sidebar.Item>
